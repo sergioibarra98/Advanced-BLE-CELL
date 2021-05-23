@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:raspberrypi_hat-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -402,8 +401,8 @@ Text Notes 1550 7050 0    118  ~ 24
 Pullup Resistors
 Text Notes 2000 4800 0    118  ~ 24
 HAT EEPROM
-Text Notes 5300 5700 0    118  ~ 24
-Mounting Holes
+Text Notes 5500 5700 0    118  ~ 24
+Raspberry Pi\nMounting Holes
 Text Notes 1650 2000 0    118  ~ 24
 40-Pin HAT Connector
 Text Label 800  4150 0    60   ~ 0
@@ -538,4 +537,77 @@ Wire Wire Line
 	1550 6050 1550 6100
 Wire Wire Line
 	1050 6100 1150 6100
+$Comp
+L BG95:BG95 U1
+U 1 1 60AAF1CA
+P 8800 7300
+F 0 "U1" H 8800 9567 50  0000 C CNN
+F 1 "BG95" H 8800 9476 50  0000 C CNN
+F 2 "XCVR_BG95" H 8800 7300 50  0001 L BNN
+F 3 "" H 8800 7300 50  0001 L BNN
+F 4 "1.1" H 8800 7300 50  0001 L BNN "PARTREV"
+F 5 "2.4 mm" H 8800 7300 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "Manufacturer Recommendations" H 8800 7300 50  0001 L BNN "STANDARD"
+F 7 "Quectel" H 8800 7300 50  0001 L BNN "MANUFACTURER"
+	1    8800 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 60AB5B92
+P 5650 7700
+F 0 "H5" H 5500 7800 60  0000 C CNN
+F 1 "4881 SMT Mounts" H 5650 7550 60  0000 C CNN
+F 2 "project_footprints:4881" H 5550 7700 60  0001 C CNN
+F 3 "" H 5550 7700 60  0001 C CNN
+	1    5650 7700
+	1    0    0    -1  
+$EndComp
+Text Notes 5500 7400 0    118  ~ 24
+Breakout\nMounting Holes
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 60AB87F6
+P 6700 7700
+F 0 "H7" H 6550 7800 60  0000 C CNN
+F 1 "4881 SMT Mounts" H 6700 7550 60  0000 C CNN
+F 2 "project_footprints:4881" H 6600 7700 60  0001 C CNN
+F 3 "" H 6600 7700 60  0001 C CNN
+	1    6700 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 60ABAB16
+P 6700 8350
+F 0 "H8" H 6550 8450 60  0000 C CNN
+F 1 "4881 SMT Mounts" H 6700 8200 60  0000 C CNN
+F 2 "project_footprints:4881" H 6600 8350 60  0001 C CNN
+F 3 "" H 6600 8350 60  0001 C CNN
+	1    6700 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 60ABCE73
+P 5650 8350
+F 0 "H6" H 5500 8450 60  0000 C CNN
+F 1 "4881 SMT Mounts" H 5650 8200 60  0000 C CNN
+F 2 "project_footprints:4881" H 5550 8350 60  0001 C CNN
+F 3 "" H 5550 8350 60  0001 C CNN
+	1    5650 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NRF52840-QIAA-R7:NRF52840-QIAA-R7 U3
+U 1 1 60ACBB4C
+P 12100 6400
+F 0 "U3" H 12100 7967 50  0000 C CNN
+F 1 "NRF52840-QIAA-R7" H 12100 7876 50  0000 C CNN
+F 2 "NORDIC_NRF52840-QIAA-R7" H 12100 6400 50  0001 L BNN
+F 3 "" H 12100 6400 50  0001 L BNN
+F 4 "NORDIC SEMICONDUCTOR" H 12100 6400 50  0001 L BNN "MF"
+	1    12100 6400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

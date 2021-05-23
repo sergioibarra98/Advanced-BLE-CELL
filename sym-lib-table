@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name raspberrypi_hat)(type Legacy)(uri ${KIPRJMOD}/project_components/raspberrypi_hat.lib)(options "")(descr ""))
+  (lib (name BG95)(type Legacy)(uri ${KIPRJMOD}/project_components/BG95.lib)(options "")(descr ""))
+  (lib (name NRF52840-QIAA-R7)(type Legacy)(uri ${KIPRJMOD}/project_components/NRF52840-QIAA-R7.lib)(options "")(descr ""))
 )
